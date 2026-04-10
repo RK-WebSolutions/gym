@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.eot");
+    src: url("./flaticon.ttf") format("truetype"),
+      url("./flaticon.woff") format("woff"),
+      url("./flaticon.woff2") format("woff2");
+  }
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-user:before {
+    content: "\f101";
+}
+.flaticon-save-instagram:before {
+    content: "\f102";
+}
+.flaticon-location:before {
+    content: "\f103";
+}
+.flaticon-heart:before {
+    content: "\f104";
+}
+.flaticon-clock:before {
+    content: "\f105";
+}
+.flaticon-clock-1:before {
+    content: "\f106";
+}
+.flaticon-phone:before {
+    content: "\f107";
+}
+.flaticon-close:before {
+    content: "\f108";
+}
+.flaticon-phone-call:before {
+    content: "\f109";
+}
+.flaticon-calendar:before {
+    content: "\f10a";
+}
+.flaticon-shopping-cart:before {
+    content: "\f10b";
+}
+.flaticon-history:before {
+    content: "\f10c";
+}
+.flaticon-next:before {
+    content: "\f10d";
+}
+.flaticon-loupe:before {
+    content: "\f10e";
+}
+.flaticon-shopping-cart-1:before {
+    content: "\f10f";
+}
+.flaticon-fast-delivery:before {
+    content: "\f110";
+}
+.flaticon-power:before {
+    content: "\f111";
+}
+.flaticon-search:before {
+    content: "\f112";
+}
+.flaticon-thunder:before {
+    content: "\f113";
+}
+.flaticon-mail:before {
+    content: "\f114";
+}
+.flaticon-network:before {
+    content: "\f115";
+}
+.flaticon-calendar-1:before {
+    content: "\f116";
+}
+.flaticon-dumbbell:before {
+    content: "\f117";
+}
+.flaticon-exercises:before {
+    content: "\f118";
+}
+.flaticon-cycling:before {
+    content: "\f119";
+}
+.flaticon-grip:before {
+    content: "\f11a";
+}
+.flaticon-weightlifter:before {
+    content: "\f11b";
+}
+.flaticon-skipping-rope:before {
+    content: "\f11c";
+}
+.flaticon-workout:before {
+    content: "\f11d";
+}
+.flaticon-proteins:before {
+    content: "\f11e";
+}
+.flaticon-running:before {
+    content: "\f11f";
+}
+.flaticon-gymnastic-rings:before {
+    content: "\f120";
+}
+.flaticon-waist:before {
+    content: "\f121";
+}
+.flaticon-expander:before {
+    content: "\f122";
+}
+.flaticon-sport-bag:before {
+    content: "\f123";
+}
+.flaticon-stationary-bike:before {
+    content: "\f124";
+}
+.flaticon-yoga-mat:before {
+    content: "\f125";
+}
+.flaticon-bottle:before {
+    content: "\f126";
+}
+.flaticon-muscle:before {
+    content: "\f127";
+}
+.flaticon-boxing-gloves:before {
+    content: "\f128";
+}
+.flaticon-target:before {
+    content: "\f129";
+}
+.flaticon-mountain:before {
+    content: "\f12a";
+}
+.flaticon-bath-towel:before {
+    content: "\f12b";
+}
+.flaticon-sneakers:before {
+    content: "\f12c";
+}
+.flaticon-sleeveless-shirt:before {
+    content: "\f12d";
+}
+.flaticon-weightlifter-1:before {
+    content: "\f12e";
+}
+.flaticon-weights:before {
+    content: "\f12f";
+}
+.flaticon-gym:before {
+    content: "\f130";
+}
+.flaticon-fitball:before {
+    content: "\f131";
+}
+.flaticon-scales:before {
+    content: "\f132";
+}
