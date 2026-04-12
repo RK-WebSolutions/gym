@@ -1,0 +1,30 @@
+{"id":"AF101","s":"U01","p":"contains","o":"U02, U03, U04, U05, U06, U07, U08, U09, U10","src":["F01"]}
+{"id":"AF102","s":"U01","p":"renders","o":"single-page app with template injection + custom React components","src":["F01","F07"]}
+{"id":"AF103","s":"U12","p":"fetches","o":"/gymate/home2-source.html (saved WordPress Gymate template)","src":["F01"]}
+{"id":"AF104","s":"U12","p":"injects","o":"parses HTML → extracts head/body → rewrites asset paths → sanitizes links → removes unwanted sections → applies content overrides","src":["F01"]}
+{"id":"AF105","s":"U11","p":"configures","o":"all visible text, pricing, social links, navigation labels","src":["F05"]}
+{"id":"AF106","s":"U02","p":"contains","o":"U17 (announcement bar) + nav links + U15 (mobile menu) + header CTA button","src":["F03"]}
+{"id":"AF107","s":"U02","p":"navigates-to","o":"#top, #about, #classes, #trainers, #blog, #pricing, #contact","src":["F03"]}
+{"id":"AF108","s":"U15","p":"toggles","o":"mobile menu open/close via useState boolean","src":["F03"]}
+{"id":"AF109","s":"U03","p":"displays","o":"eyebrow text + title + description + 2 CTA buttons + highlights list","src":["F02"]}
+{"id":"AF110","s":"U03","p":"renders","o":"hero image (/gymate/assets/home2-1.jpg) + decorative shape + card badge","src":["F02"]}
+{"id":"AF111","s":"U03","p":"triggers","o":"primary CTA (Join Now) + secondary CTA (Book Free Trial)","src":["F02"]}
+{"id":"AF112","s":"U04","p":"overrides","o":"aboutSubtitle, aboutTitle, aboutBody from siteConfig.content","src":["F01","F05"]}
+{"id":"AF113","s":"U05","p":"overrides","o":"program names remapped: Cycling→Strength Training, Meditation→Cardio, Martial Arts→Personal Training, Karate→Weight Loss, Power Lifting→Yoga","src":["F01"]}
+{"id":"AF114","s":"U05","p":"renders","o":"program cards with FontAwesome icon fallbacks replacing broken flaticons","src":["F01"]}
+{"id":"AF115","s":"U06","p":"displays","o":"3 pricing tiers: Basic ₹999/mo, Standard ₹1499/mo, Premium ₹2499/mo","src":["F05"]}
+{"id":"AF116","s":"U06","p":"contains","o":"U13 (monthly/yearly toggle switcher)","src":["F01"]}
+{"id":"AF117","s":"U13","p":"toggles","o":"monthly ↔ yearly pricing display via click handler on switch-button","src":["F01"]}
+{"id":"AF118","s":"U07","p":"overrides","o":"trainersTitle, trainersBody from siteConfig.content","src":["F01","F05"]}
+{"id":"AF119","s":"U08","p":"overrides","o":"3 testimonials with local names (Arun Kumar, Priya S, Vikram R)","src":["F01","F05"]}
+{"id":"AF120","s":"U09","p":"contains","o":"U16 (contact form) + info cards (phone, email, location, hours)","src":["F01"]}
+{"id":"AF121","s":"U16","p":"displays","o":"name, email, phone, program selector, message textarea, submit button","src":["F01"]}
+{"id":"AF122","s":"U16","p":"triggers","o":"inline form submit → shows 'Sent ✓' → resets after 2s (no backend)","src":["F01"]}
+{"id":"AF123","s":"U10","p":"displays","o":"eyebrow + title + description + CTA button + social links + copyright + back-to-top","src":["F04"]}
+{"id":"AF124","s":"U14","p":"renders","o":"Facebook, Instagram, LinkedIn, X links from siteConfig.socialLinks","src":["F04","F05"]}
+{"id":"AF125","s":"U12","p":"overrides","o":"all external links sanitized → demo URLs remapped to section anchors","src":["F01"]}
+{"id":"AF126","s":"U12","p":"overrides","o":"removes WooCommerce, shop, cart, trainer promo sections from template","src":["F01"]}
+{"id":"AF127","s":"U12","p":"overrides","o":"nav menu items filtered to: Home, About, Programs, Trainers, Testimonials, Contact","src":["F01"]}
+{"id":"AF128","s":"F06","p":"configures","o":"custom CSS for rk-hero, rk-site-header, rk-site-footer, rk-contact-section, rk-brand","src":["F06"]}
+{"id":"AF129","s":"U01","p":"renders","o":"loading skeleton while template fetches, error state on failure","src":["F01"]}
+{"id":"AF130","s":"U12","p":"injects","o":"FontAwesome SVG fallbacks for social icons (replaces font-based icons)","src":["F01"]}

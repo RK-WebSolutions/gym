@@ -1,0 +1,28 @@
+{"id":"AF201","s":"UI","p":"theme","o":"dark premium with white body — contact/footer use dark backgrounds (#0a0a14), main body is white (#ffffff)"}
+{"id":"AF202","s":"UI","p":"primary-color","o":"#ff0336 (vibrant red) — used for CTAs, accents, focus states, icon backgrounds"}
+{"id":"AF203","s":"UI","p":"primary-gradient","o":"linear-gradient(135deg, #ff0336 0%, #e0002b 100%) — buttons, icon boxes"}
+{"id":"AF204","s":"UI","p":"dark-bg-gradient","o":"linear-gradient(135deg, #0a0a14 0%, #111128 50%, #0c0c1a 100%) — contact section"}
+{"id":"AF205","s":"UI","p":"text-primary","o":"#ffffff (on dark), #111111 (on light)"}
+{"id":"AF206","s":"UI","p":"text-muted","o":"#9a9cb8 — secondary text on dark backgrounds"}
+{"id":"AF207","s":"UI","p":"text-placeholder","o":"#6b6d87 — form placeholders, select default"}
+{"id":"AF208","s":"UI","p":"glass-bg","o":"rgba(255,255,255,0.03) with backdrop-filter: blur(6-8px) — cards, form wrapper"}
+{"id":"AF209","s":"UI","p":"glass-border","o":"1px solid rgba(255,255,255,0.06-0.07) — subtle glass borders"}
+{"id":"AF210","s":"UI","p":"border-radius-card","o":"16px for cards, 20px for large containers, 12px for inputs/buttons, 14px for icon boxes"}
+{"id":"AF211","s":"UI","p":"font-stack","o":"inherit (uses Gymate template fonts) — fallback: Arial, sans-serif for loading state"}
+{"id":"AF212","s":"UI","p":"font-weight-heading","o":"700-800 for headings, 700 for buttons/labels"}
+{"id":"AF213","s":"UI","p":"responsive-title","o":"clamp(28px, 4vw, 44px) — fluid typography for section titles"}
+{"id":"AF214","s":"UI","p":"spacing-section","o":"80px vertical padding (56px on tablet, tighter on mobile)"}
+{"id":"AF215","s":"UI","p":"max-width","o":"1200px for content containers"}
+{"id":"AF216","s":"UI","p":"transition-default","o":"all 0.3s ease — used on buttons, cards, inputs"}
+{"id":"AF217","s":"UI","p":"hover-transform-button","o":"translateY(-2px) + enhanced box-shadow on hover"}
+{"id":"AF218","s":"UI","p":"hover-transform-card","o":"translateX(6px) + red-tinted border on hover"}
+{"id":"AF219","s":"UI","p":"focus-ring","o":"border-color: #ff0336 + box-shadow: 0 0 0 3px rgba(255,3,54,0.1)"}
+{"id":"AF220","s":"UI","p":"box-shadow-button","o":"0 4px 20px rgba(255,3,54,0.25-0.3) — normal; 0 8px 30px rgba(255,3,54,0.4) — hover"}
+{"id":"AF221","s":"UI","p":"decorative-glow","o":"radial-gradient circles with rgba(255,3,54,0.06-0.08) — top-right and bottom-left of contact section"}
+{"id":"AF222","s":"Breakpoints","p":"tablet","o":"max-width: 900px — single column layout"}
+{"id":"AF223","s":"Breakpoints","p":"mobile","o":"max-width: 600px — stacked form rows, tighter padding"}
+{"id":"AF224","s":"Icons","p":"system","o":"FontAwesome 6 (fa-solid) — fallback SVGs for social icons"}
+{"id":"AF225","s":"Icons","p":"flaticon-fallback","o":"all flaticon-* classes replaced with fa-solid equivalents at runtime"}
+{"id":"AF226","s":"UI","p":"naming-convention","o":"BEM-style with 'rk-' prefix: rk-hero, rk-button, rk-site-header, rk-contact-section"}
+{"id":"AF227","s":"UI","p":"select-dropdown","o":"custom arrow SVG via background-image, dark option background (#151525)"}
+{"id":"AF228","s":"UI","p":"css-strategy","o":"custom CSS overrides in app.css layered on top of Gymate template stylesheets"}

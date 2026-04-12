@@ -1,0 +1,12 @@
+{"id":"AF301","s":"Social","p":"platforms","o":"Facebook, Instagram, LinkedIn, X (Twitter)"}
+{"id":"AF302","s":"Social","p":"facebook-url","o":"https://facebook.com/rkwebsolutions"}
+{"id":"AF303","s":"Social","p":"instagram-url","o":"https://instagram.com/rkwebsolutions"}
+{"id":"AF304","s":"Social","p":"linkedin-url","o":"https://linkedin.com/company/rkwebsolutions"}
+{"id":"AF305","s":"Social","p":"x-url","o":"https://x.com/rkwebsolutions"}
+{"id":"AF306","s":"Social","p":"config-source","o":"siteConfig.socialLinks object in src/siteConfig.js"}
+{"id":"AF307","s":"Social","p":"rendering","o":"Footer.jsx filters empty URLs, renders as target=_blank rel=noreferrer links"}
+{"id":"AF308","s":"Social","p":"icon-system","o":"SVG fallbacks injected at runtime — replaces FA font icons with inline SVGs"}
+{"id":"AF309","s":"Social","p":"icon-map","o":"fa-facebook-f, fa-x-twitter, fa-linkedin-in, fa-instagram, fa-globe"}
+{"id":"AF310","s":"Social","p":"global-icon","o":"fa-globe icon with href=https://rkws.in added to social containers by addGlobalIcon()"}
+{"id":"AF311","s":"Social","p":"fallback-behavior","o":"if siteConfig URL is empty, uses dummy generic URL and marks with data-dummyLink=true"}
+{"id":"AF312","s":"Social","p":"template-locations","o":"topbar-social, banner-social-section, sidenav-social containers in Gymate template"}

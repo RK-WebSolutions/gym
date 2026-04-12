@@ -1,0 +1,20 @@
+{"id":"AF001","s":"System","p":"goal","o":"demo gym website showcasing RK Web Solutions' web development capability"}
+{"id":"AF002","s":"System","p":"client-type","o":"small business gym in Erode, Tamil Nadu"}
+{"id":"AF003","s":"System","p":"built-by","o":"RK Web Solutions"}
+{"id":"AF004","s":"Flow","p":"sequence","o":"visitor → landing page → explore sections → CTA (Join Now / Book Free Trial) → conversion"}
+{"id":"AF005","s":"Frontend","p":"framework","o":"React (Vite)"}
+{"id":"AF006","s":"Frontend","p":"language","o":"JavaScript (JSX)"}
+{"id":"AF007","s":"Frontend","p":"styling","o":"Vanilla CSS (app.css)"}
+{"id":"AF008","s":"Frontend","p":"bundler","o":"Vite"}
+{"id":"AF009","s":"Architecture","p":"pattern","o":"single-page app with component-based UI"}
+{"id":"AF010","s":"Architecture","p":"config","o":"centralized siteConfig.js drives all text content"}
+{"id":"AF011","s":"Architecture","p":"components","o":"Navbar, Hero, Footer (in src/components/)"}
+{"id":"AF012","s":"Architecture","p":"entry-point","o":"src/main.jsx → App.jsx"}
+{"id":"AF013","s":"Primary CTA","p":"type","o":"Join Now button + Book Free Trial button"}
+{"id":"AF014","s":"Content","p":"sections","o":"Hero, About, Programs, Membership, Trainers, Testimonials, Contact, Footer"}
+{"id":"AF015","s":"Pricing","p":"tiers","o":"Basic (₹999/mo), Standard (₹1499/mo), Premium (₹2499/mo)"}
+{"id":"AF016","s":"Location","p":"city","o":"Erode, Tamil Nadu"}
+{"id":"AF017","s":"Social","p":"platforms","o":"Facebook, Instagram, LinkedIn, X (Twitter)"}
+{"id":"AF018","s":"Hosting","p":"repo","o":"github.com/RK-WebSolutions/gym"}
+{"id":"AF019","s":"Hosting","p":"branch","o":"main"}
+{"id":"AF020","s":"Design","p":"aesthetic","o":"modern, dark theme, premium feel with smooth animations"}
