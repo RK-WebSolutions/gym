@@ -27,3 +27,330 @@ body {
   margin: 0;
   text-align: center;
 }
+
+#gymate-app i.icon-fallback-applied::before {
+  content: none !important;
+}
+
+#gymate-app i[class*="flaticon-"]::before {
+  content: none !important;
+}
+
+#gymate-app i.icon-fallback-applied {
+  font-style: normal;
+  line-height: 1;
+}
+
+#gymate-app i.icon-fallback-applied.icon-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2em;
+  height: 1.2em;
+  color: currentColor;
+}
+
+#gymate-app i.icon-fallback-applied.icon-svg svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#gymate-app .price-icon i.icon-fallback-applied.icon-svg {
+  width: 44px;
+  height: 44px;
+}
+
+#gymate-app .price-switch-box .pack-name {
+  cursor: pointer;
+}
+
+/* ═══════════════════════════════════════════════════
+   CONTACT SECTION — Premium Dark Theme
+   ═══════════════════════════════════════════════════ */
+
+.rk-contact-section {
+  background: linear-gradient(135deg, #0a0a14 0%, #111128 50%, #0c0c1a 100%);
+  color: #ffffff;
+  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rk-contact-section::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 3, 54, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.rk-contact-section::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 3, 54, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.rk-contact-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.rk-contact-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.rk-contact-subtitle {
+  margin: 0 0 10px;
+  color: #ff0336;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 14px;
+}
+
+.rk-contact-title {
+  margin: 0 0 16px;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.15;
+  font-weight: 800;
+  color: #ffffff !important;
+}
+
+.rk-contact-body {
+  margin: 0 auto;
+  max-width: 640px;
+  color: #9a9cb8;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Split Layout */
+.rk-contact-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* Info Cards Stack */
+.rk-contact-info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rk-contact-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 22px 24px;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.rk-contact-card:hover {
+  background: rgba(255, 3, 54, 0.06);
+  border-color: rgba(255, 3, 54, 0.2);
+  transform: translateX(6px);
+}
+
+.rk-card-icon {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #ff0336 0%, #e0002b 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(255, 3, 54, 0.25);
+}
+
+.rk-card-icon i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.rk-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rk-card-text strong {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.rk-card-text span {
+  font-size: 14px;
+  color: #9a9cb8;
+}
+
+/* Contact Form */
+.rk-contact-form-wrapper {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  padding: 36px 32px;
+}
+
+.rk-form-heading {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.rk-form-subtext {
+  margin: 0 0 24px;
+  font-size: 14px;
+  color: #9a9cb8;
+  line-height: 1.5;
+}
+
+.rk-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rk-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.rk-form-input {
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.rk-form-input::placeholder {
+  color: #6b6d87;
+}
+
+.rk-form-input:focus {
+  border-color: #ff0336;
+  background: rgba(255, 3, 54, 0.04);
+  box-shadow: 0 0 0 3px rgba(255, 3, 54, 0.1);
+}
+
+select.rk-form-input {
+  color: #6b6d87;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M6 8L1 3h10z' fill='%236b6d87'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+
+select.rk-form-input option {
+  background: #151525;
+  color: #ffffff;
+}
+
+textarea.rk-form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.rk-form-btn {
+  width: 100%;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #ff0336 0%, #e0002b 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(255, 3, 54, 0.3);
+}
+
+.rk-form-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 3, 54, 0.4);
+}
+
+.rk-form-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .rk-contact-split {
+    grid-template-columns: 1fr;
+  }
+  .rk-contact-section {
+    padding: 56px 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .rk-form-row {
+    grid-template-columns: 1fr;
+  }
+  .rk-contact-form-wrapper {
+    padding: 24px 20px;
+  }
+}
+
+#gymate-app .class-default.class-grid-style4 .class-item .class-media {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    z-index: 10 !important;
+}
+
+#gymate-app .class-default.class-grid-style4 .class-item .class-media .class-icon i {
+    font-size: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+}
