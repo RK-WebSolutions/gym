@@ -4,26 +4,40 @@ const configuredSocialLinks = Object.entries(siteConfig.socialLinks).filter(
   ([, url]) => url.trim(),
 );
 
+// Map network name to fontawesome class
+const iconMap = {
+  facebook: 'fab fa-facebook-f',
+  instagram: 'fab fa-instagram',
+  twitter: 'fab fa-twitter',
+  linkedin: 'fab fa-linkedin-in',
+  youtube: 'fab fa-youtube'
+};
+
 export function Footer() {
+  const { content } = siteConfig;
   return (
-    <footer className="rk-site-footer" id="contact">
-      <div className="rk-site-footer__content">
-        <div className="rk-site-footer__copy">
-          <span className="rk-site-footer__eyebrow">{siteConfig.footer.eyebrow}</span>
-          <h2>{siteConfig.footer.title}</h2>
-          <p>{siteConfig.footer.description}</p>
+    <footer className="rk-site-footer-premium" id="contact-footer">
+      <div className="rk-site-footer-premium__content">
+        <div className="rk-site-footer-premium__brand">
+          <h2>TITAN FORGE</h2>
+          <p>{content.footerTagline}</p>
         </div>
 
-        <div className="rk-site-footer__actions">
-          <a className="rk-button rk-button--footer" href={siteConfig.footer.ctaHref}>
-            {siteConfig.footer.ctaLabel}
-          </a>
+        <div className="rk-site-footer-premium__links">
+          <strong>NAVIGATION</strong>
+          <a href="#about">About</a>
+          <a href="#classes">Programs</a>
+          <a href="#pricing">Membership</a>
+          <a href="#trainers">Trainers</a>
+        </div>
 
+        <div className="rk-site-footer-premium__socials-container">
+          <strong>TRANSMISSIONS</strong>
           {configuredSocialLinks.length > 0 && (
-            <div className="rk-site-footer__socials" aria-label="Social links">
+            <div className="rk-site-footer-premium__socials" aria-label="Social links">
               {configuredSocialLinks.map(([network, url]) => (
-                <a key={network} href={url} rel="noreferrer" target="_blank">
-                  {network}
+                <a key={network} href={url} rel="noreferrer" target="_blank" className="rk-social-icon">
+                  <i className={iconMap[network.toLowerCase()] || 'fas fa-link'}></i>
                 </a>
               ))}
             </div>
@@ -31,9 +45,9 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="rk-site-footer__bottom">
-        <span>{siteConfig.footer.copyright}</span>
-        <a href="#top">Back To Top</a>
+      <div className="rk-site-footer-premium__bottom">
+        <span>{content.footerCopyright}</span>
+        <a href="#top" className="rk-back-to-top">RETURN TO APEX <i className="fas fa-arrow-up"></i></a>
       </div>
     </footer>
   );
